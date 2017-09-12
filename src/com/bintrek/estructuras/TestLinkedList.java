@@ -47,8 +47,9 @@ public class TestLinkedList {
         }
         
         System.out.println("===============================");
-        
-         for(int i=1; i<=list.size; i++){
+         tamanio = list.size;
+        System.out.println( tamanio );
+         for(int i=1; i<=tamanio; i++){
             System.out.println( "Elemento " + i + ":" + list.get() );
         }
         

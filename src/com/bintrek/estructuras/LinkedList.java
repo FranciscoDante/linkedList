@@ -42,9 +42,9 @@ public class LinkedList<Item> {
             for (int i = 1; i <= size; i++) {
                 if (i == numNode) {
                     if (prev == null) {
-                        first = first.next;
+                        first = current.next;
                         size--;
-                        return first.data;
+                        return current.data;
                     } else {
                         prev.next = current.next;
                         size--;
